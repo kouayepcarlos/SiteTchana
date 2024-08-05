@@ -1,0 +1,154 @@
+/* =====================================
+Template Name: 	BLog.
+Author Name: Alain Tchana
+Description: Blog - About Team.
+Version:	1.1
+========================================*/
+
+/*--------------------------------------------------------------
+# slyle
+--------------------------------------------------------------*/
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.remzi-welcome img
+{
+  width: 750px;
+}
+
+.about
+{
+  background: url("../img/tchana-2.jpg") center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.teaching
+{
+  background: url("../img/tchana-1.jpg") center center no-repeat fixed;
+  -webkit-background-size: 50%;
+  -moz-background-size:50%;
+  -o-background-size: 50%;
+  background-size: 45%;
+ background-color: #e0ddd6;
+ background-position: left 20%;
+}
+
+.research {
+  background: url("../img/newTophr.jpg") center calc(13% + 25px) no-repeat fixed;
+  background-size: cover;
+  background-color: #e0ddd6;
+
+  box-sizing: border-box; /* Assurez-vous que le padding est inclus dans la taille totale */
+}
+
+
+.leaving {
+  background: url("../img/tchana-auf.jpg") center  no-repeat fixed;
+  background-size: 51%;
+  background-color: #e0ddd6;
+  background-position: left 20%;
+  box-sizing: border-box; /* Assurez-vous que le padding est inclus dans la taille totale */
+}
+
+
+
+.intern-item {
+  margin: 5px;
+}
+
+.backgr
+{
+  border-color: black;
+}
+
+
+.navbar a
+{
+  color: white;  
+}
+
+
+.navbar a:hover
+{
+  color: #fdc018;
+}
+
+.activ a
+{
+  color: #fdc018;
+}
+
+.black-box {
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  padding: 30px;
+  float: right;
+}
+
+.remzi-welcome {
+  width: 43%;
+}
+
+.black-box p
+{
+  text-align: justify;
+}
+
+
+.black-box  a {
+  color: gray;
+  text-decoration: none;
+}
+
+.black-box  a:hover {
+  color: white;
+}
+
+.accordion-body img{
+  width: 930px;
+  
+}
+.text li {
+  text-align: justify;
+}
+
+@media (max-width: 700px) {
+  .black-box {
+    width: 90% !important;
+   /*float: none;
+   margin: auto;
+   margin-top: 50px;*/
+  }
+
+  .navbar-toggler-icon
+  {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 1); /* Change la couleur de la bordure en blanc */
+}
+
+.accordion-body img{
+  width: 310px;
+}
+
+.remzi-welcome img
+{
+  width: 350px;
+}
+
+
+}
+url(http://localhost/BlogTchana/img/afrik.jpg)
