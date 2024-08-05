@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    { "source": "/research", "destination": "/research.html" },
+    { "source": "/new", "destination": "/new.html" },
+    { "source": "/publications", "destination": "/publications.html" },
+    { "source": "/responsabilities", "destination": "/responsabilities.html" },
+    { "source": "/media", "destination": "/media.html" },
+   { "source": "/mentoring", "destination": "/mentoring.html" },
+    { "source": "/cameroon", "destination": "/cameroon.html" },
+   { "source": "/daring", "destination": "/daring.html" },
+    { "source": "/ideas", "destination": "/ideas.html" },
+    { "source": "/leaving", "destination": "/leaving.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    
+    { "source": "/phd", "destination": "/phd.html" },
+    { "source": "/engineers", "destination": "/engineers.html" },
+    { "source": "/interns", "destination": "/interns.html" },
+    
+    { "source": "/preambule", "destination": "/preambule.html" },
+    { "source": "/precept1", "destination": "/precept1.html" },
+    { "source": "/precept2", "destination": "/precept2.html" },
+    { "source": "/precept3", "destination": "/precept3.html" },
+    { "source": "/precept4", "destination": "/precept4.html" },
+    { "source": "/precept5", "destination": "/precept5.html" },
+    { "source": "/precept6", "destination": "/precept6.html" },
+    { "source": "/precept7", "destination": "/precept7.html" },
+    { "source": "/precept8", "destination": "/precept8.html" },
+    { "source": "/precept9", "destination": "/precept9.html" },
+    { "source": "/precept10", "destination": "/precept10.html" },
+    { "source": "/precept11", "destination": "/precept11.html" },
+    { "source": "/precept12", "destination": "/precept12.html" },
+    { "source": "/precept13", "destination": "/precept13.html" },
+    { "source": "/conclusion", "destination": "/conclusion.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
