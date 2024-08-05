@@ -20,7 +20,8 @@ body {
 
 .remzi-welcome img
 {
-  width: 350px;
+  width: 170px;
+  align-items : center;
 }
 
 .about
