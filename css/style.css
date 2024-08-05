@@ -21,7 +21,9 @@ body {
 .remzi-welcome img
 {
   width: 170px;
-  align-items : center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about
