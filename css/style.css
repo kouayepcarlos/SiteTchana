@@ -119,7 +119,8 @@ body {
 }
 
 .accordion-body img{
-  width: 930px;
+  width: 900px;
+  margin-right: 25px; 
   
 }
 .text li {
